@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>REST API TRAINING</title>
+    <link rel="stylesheet" type="text/css" href="cs.css">
 </head>
 <body>
+    <header>
+        <div class="header-content">
+            <h1>Where in the world</h1>
+            <button>Dark theme</button>
+        </div>
+    </header>
+    <div class="filters">
+        <input type="text" id="query" placeholder="Search for country">
+        <select name="region" id="region">
+            <option value="">filter by region</option>
+            <option value="Europe">Europe</option>
+            <option value="Americas">Americas</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+    </div>
+    <main id="root">
+        
+    </main>
     
-    <script src="./js.js"></script>
+    <script type="module" src="./js.js"></script>
 </body>
 </html>
